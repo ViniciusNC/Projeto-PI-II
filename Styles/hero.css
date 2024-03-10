@@ -1,0 +1,40 @@
+.hero-image{
+  background: url(../Imagens/back2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.jogo-info{
+  font-family: fantasy;
+  color: white; 
+  position: fixed;
+  left: 480px;
+  top: 280px;
+
+}
+
+.jogo-titulo{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.titulo{
+  font-size: 48px;
+  margin-bottom: 0px;
+}
+
+.legendas{
+  display: flex;
+  flex-direction: column;
+}
+
+.legenda1{
+  margin-bottom: 0px;
+}
+
+.legenda2{
+  margin-top: 5px;
+}
