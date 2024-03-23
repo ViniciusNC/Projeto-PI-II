@@ -1,40 +1,40 @@
-.hero-image{
-  background: url(../Imagens/back2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+.hero{
+  background: black;
   height: 100vh;
 }
 
-.jogo-info{
-  font-family: fantasy;
-  color: white; 
+
+
+.texto{
+  display: flex;
   position: absolute;
-  left: 480px;
-  top: 280px;
-
+  top: 30%;
+  left: 20px;
+  right: 20px;
 }
 
-.jogo-titulo{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-
+.legenda{
+  font-size: 24px;
+  margin-top: 2px;
 }
 
-.titulo{
-  font-size: 48px;
-  margin-bottom: 0px;
+.button-experimentar{
+  background-color: rgb(197, 68, 197);
+  color: white;
+  border: none;
+  padding: 16px 32px 16px 32px;
+  font-size: 20px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
-.legendas{
-  display: flex;
-  flex-direction: column;
+.informacoes{
+  margin-right: 150px;
 }
 
-.legenda1{
-  margin-bottom: 0px;
-}
 
-.legenda2{
-  margin-top: 5px;
+h1{
+  font-weight: bolder;
+  font-size: 62px;
+  margin-bottom: 0;
 }
